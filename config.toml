@@ -1,0 +1,103 @@
+baseURL = "https://neacajui-v14.netlify.app/"
+languageCode = "pt-BR"
+title = "NeaCajuí - Empresa júnior"
+author = "https://www.catiuespi.com/"
+theme = "terrassa-v8"
+enableRobotsTXT = true
+paginate = 5
+
+[menu]
+
+  [[menu.main]]
+    identifier = "Admin"
+    name = "Admin"
+    title = "Admin"
+    url = "/admin"
+    weight = 4
+
+[params]
+    description = "NeaCajuí - Empresa júnior | Parnaíba - PI"
+    favicon = "neacajui-logo.jpg"
+    logo = "neacajui-logo.jpg"
+
+[params.hero]
+    textColor = "#fff" # Empty for default color 038A24
+
+[params.cta] # Call To Action
+    show = true
+    cta = "Contato"
+    link = "contact" # Relative URL
+
+[params.separator] # Separators between sections on the home page
+    show = false
+
+[params.fa] # Font Awesome options
+    version = "5.7.2"
+    integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+
+[params.form] # Contact form
+    netlify = true
+    action = "https://formspree.io/your@email.com"
+    method = "POST"
+    inputNameName = "name"
+    inputNameLabel = "Nome"
+    inputNamePlaceholder = "Seu Nome"
+    inputEmailName = "email"
+    inputEmailLabel = "Email"
+    inputEmailPlaceholder = "Insira seu email"
+    inputMsgName = "message"
+    inputMsgLabel = "Qual sua mensagem?"
+    inputMsgLength = 750
+    inputSubmitValue = "Enviar"
+
+[params.posts]
+    showAuthor = true
+    showDate = true
+    showTags = true
+    dateFormat = "Segunda-Feira, Janeiro, 2006"
+
+[params.contact] # Contact info
+    email = "neacajui@phb.uespi.br"
+    phone = "(86) 9901-3498"
+    skype = ""
+    address = "Parnaíba - Piauí"
+
+[params.social]
+    twitter = "https://twitter.com/radiocajuifm"
+    facebook = "https://facebook.com/neacajui"
+    gitlab = ""
+    instagram = "https://instagram.com/neacajui_uespi"
+    pinterest = ""
+    youtube = "https://www.youtube.com/channel/UCSYOZaHz0dBGQ4vToIRoNRw"
+    linkedin = ""
+    weibo = ""
+    mastodon = ""
+    tumblr = ""
+    flickr = ""
+    "500px" = ""
+
+[params.copy] # Copyright
+    copy = "Centro de Aplicação em Tecnologia e Inovação" # Empty for default content
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = true
+        simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
+
+[params.languageSwitcher]
+    show = true
