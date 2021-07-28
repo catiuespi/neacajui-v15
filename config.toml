@@ -1,8 +1,8 @@
-baseURL = "https://neacajui-v14.netlify.app/"
+baseURL = "https://neacajui-v15.netlify.app/"
 languageCode = "pt-BR"
 title = "NeaCajuí - Empresa júnior"
 author = "https://www.catiuespi.com/"
-theme = "terrassa-v8"
+theme = "terrassa-v9"
 enableRobotsTXT = true
 paginate = 5
 
